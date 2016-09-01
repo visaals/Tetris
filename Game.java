@@ -101,11 +101,12 @@ public class Game {
 			scene.get(0).draw(actualGrid);
 			scene.get(0).move(actualGrid);
 			// draws the first next-block image
-			if (scene.get(1).isVertBlock() == true) {
+		/*	if (scene.get(1).isVertBlock() == true) {
 				StdDraw.picture(30, 10, "file:/Users/Visaal/Desktop/VertBlock2.jpg", 10, 10);
 			} else {
 				StdDraw.picture(30, 10, "file:/Users/Visaal/Desktop/Block.png", 10, 10);
-			}
+			} 
+		*/
 
 			// Draws the list of objects every time an object .isDone is true
 			// draws consecutive objects when the previous object is done.
